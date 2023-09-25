@@ -20,6 +20,9 @@ pluginManagement {
 			}
 		}
 	}
+	repositories {
+		mavenCentral()
+	}
 }
 
 ext.MAVEN_REPO_CACHE = System.getenv("MAVEN_REPO_CACHE")?.trim()

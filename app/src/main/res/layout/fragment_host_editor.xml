@@ -22,7 +22,7 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	android:fillViewport="true"
-	tools:context="org.connectbot.HostEditorFragment"
+	tools:context="com.autozone.android.connectbot.HostEditorFragment"
 	>
 
 	<LinearLayout
@@ -222,6 +222,84 @@
 		</RelativeLayout>
 
 		<RelativeLayout
+			android:id="@+id/appname_item"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+
+			<ImageView
+				android:layout_width="24dp"
+				android:layout_height="24dp"
+				app:srcCompat="@drawable/ic_person"
+				android:contentDescription="@null"
+				style="@style/ListItemIcon"
+				/>
+
+			<com.google.android.material.textfield.TextInputLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginEnd="16dp"
+				android:layout_marginLeft="68dp"
+				android:layout_marginRight="16dp"
+				android:layout_marginStart="68dp"
+				android:accessibilityLiveRegion="polite"
+				android:contentDescription="@string/hostpref_appname_title"
+				android:labelFor="@+id/appname_field"
+				tools:ignore="UnusedAttribute"
+				>
+
+				<com.google.android.material.textfield.TextInputEditText
+					android:id="@id/appname_field"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:maxLines="1"
+					android:inputType="text"
+					android:hint="@string/hostpref_appname_title"
+					/>
+
+			</com.google.android.material.textfield.TextInputLayout>
+
+		</RelativeLayout>
+		<RelativeLayout
+			android:id="@+id/enviroment_item"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+
+			<ImageView
+				android:layout_width="24dp"
+				android:layout_height="24dp"
+				app:srcCompat="@drawable/ic_person"
+				android:contentDescription="@null"
+				style="@style/ListItemIcon"
+				/>
+			<com.google.android.material.textfield.TextInputLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginEnd="16dp"
+				android:layout_marginLeft="68dp"
+				android:layout_marginRight="16dp"
+				android:layout_marginStart="68dp"
+				android:accessibilityLiveRegion="polite"
+				android:contentDescription="@string/hostpref_enviroment_title"
+				android:labelFor="@+id/enviroment_field"
+				tools:ignore="UnusedAttribute"
+				>
+
+				<com.google.android.material.textfield.TextInputEditText
+					android:id="@id/enviroment_field"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:maxLines="1"
+					android:inputType="text"
+					android:hint="@string/hostpref_enviroment_title"
+					/>
+
+			</com.google.android.material.textfield.TextInputLayout>
+
+		</RelativeLayout>
+
+		<RelativeLayout
 			android:id="@+id/color_item"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -414,7 +492,7 @@
 
 		</RelativeLayout>
 
-		<org.connectbot.views.CheckableMenuItem
+		<com.autozone.android.connectbot.views.CheckableMenuItem
 			android:id="@+id/use_ssh_auth_item"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -422,7 +500,7 @@
 			android:title="@string/hostpref_authagent_title"
 			/>
 
-		<org.connectbot.views.CheckableMenuItem
+		<com.autozone.android.connectbot.views.CheckableMenuItem
 			android:id="@+id/ssh_auth_confirmation_item"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -430,7 +508,7 @@
 			android:visibility="gone"
 			/>
 
-		<org.connectbot.views.CheckableMenuItem
+		<com.autozone.android.connectbot.views.CheckableMenuItem
 			android:id="@+id/compression_item"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -439,7 +517,7 @@
 			app:summary="@string/hostpref_compression_summary"
 			/>
 
-		<org.connectbot.views.CheckableMenuItem
+		<com.autozone.android.connectbot.views.CheckableMenuItem
 			android:id="@+id/start_shell_item"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -448,7 +526,7 @@
 			app:summary="@string/hostpref_wantsession_summary"
 			/>
 
-		<org.connectbot.views.CheckableMenuItem
+		<com.autozone.android.connectbot.views.CheckableMenuItem
 			android:id="@+id/stay_connected_item"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -457,7 +535,7 @@
 			app:summary="@string/hostpref_stayconnected_summary"
 			/>
 
-		<org.connectbot.views.CheckableMenuItem
+		<com.autozone.android.connectbot.views.CheckableMenuItem
 			android:id="@+id/close_on_disconnect_item"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"

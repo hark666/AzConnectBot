@@ -20,6 +20,14 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
+	<EditTextPreference
+		android:key="ignitionID"
+		android:title="@string/pref_ignitionid_title"
+		android:summary="@string/pref_ignitionid_summary"
+		android:defaultValue=""
+		android:numeric="integer"
+		/>
+
 	<SwitchPreferenceCompat
 		android:key="memkeys"
 		android:title="@string/pref_memkeys_title"
@@ -46,6 +54,13 @@
 		android:title="@string/pref_backupkeys_title"
 		android:summary="@string/pref_backupkeys_summary"
 		android:defaultValue="false"
+		/>
+
+	<com.autozone.android.connectbot.util.ImportExportPreference
+		android:key="importExport"
+		android:title="@string/pref_import_export_title"
+		android:summary="@string/pref_import_export_summary"
+		android:dialogLayout="@layout/import_export_preference_dialog_layout"
 		/>
 
 	<PreferenceCategory
@@ -185,7 +200,7 @@
 			android:defaultValue="true"
 			/>
 
-		<org.connectbot.util.VolumePreference
+		<android.connectbot.util.VolumePreference
 			android:key="bellVolume"
 			android:title="@string/pref_bell_volume_title"
 			android:dialogLayout="@layout/volume_preference_dialog_layout"

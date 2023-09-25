@@ -206,6 +206,11 @@
 	<!-- Description of the scrollback size preference -->
 	<string name="pref_scrollback_summary">"Size of scrollback buffer to keep in memory for each console"</string>
 
+	<!-- Title to the Ignition ID property -->
+	<string name="pref_ignitionid_title">"Ignition ID"</string>
+	<!-- Description to the Ignition ID property -->
+	<string name="pref_ignitionid_summary">"Ignitioin ID"</string>
+
 	<!-- Title of the preference used to enable or disable the back-up of pubkeys. -->
 	<string name="pref_backupkeys_title">Backup pubkeys</string>
 	<!-- Summary for the preference used to enable or disable the back-up of pubkeys. -->
@@ -307,6 +312,12 @@
 	<!-- Title for the slider preference to set the volume -->
 	<string name="pref_bell_volume_title">"Bell volume"</string>
 
+	<string name="pref_import_export_title">"Import/Export"</string>
+	<string name="pref_import_export_summary">"Import and/or Export the servers"</string>
+	<string name="import_export_button_import">"Import"</string>
+	<string name="import_export_button_export">"Export"</string>
+	<string name="import_export_button_clear">"Clear"</string>
+
 	<!-- Checkbox preference title for the vibrate on terminal bell feature -->
 	<string name="pref_bell_vibrate_title">"Vibrate on bell"</string>
 
@@ -329,6 +340,12 @@
 
 	<!-- Host nickname field preference title -->
 	<string name="hostpref_nickname_title">"Nickname"</string>
+
+	<!-- Host appname field preference title -->
+	<string name="hostpref_appname_title">"Appname"</string>
+
+	<!-- Host enviroment field preference title -->
+	<string name="hostpref_enviroment_title">"Enviroment"</string>
 
 	<!-- Host color category preference title -->
 	<string name="hostpref_color_title">"Color category"</string>

@@ -81,12 +81,14 @@
   <string name="button_change">Modificar</string>
   <string name="button_resize">Redimensionar</string>
   <string name="alert_disconnect_msg">Conexión perdida</string>
-  <string name="msg_copyright">Todos los derechos reservados © 2007-2008 Kenny Root http://the-b.org/, Jeffrey Sharkey http://jsharkey.org/</string>
+  <string name="msg_copyright">Todos los derechos reservados © 2007-al infinito Edgar Fierro</string>
   <string name="pref_emulation_category">Emulación del terminal</string>
   <string name="pref_emulation_title">Modo emulación</string>
   <string name="pref_emulation_summary">Modo emulación para usar en conexiones PTY</string>
   <string name="pref_scrollback_title">Tamaño de navegación</string>
   <string name="pref_scrollback_summary">Tamaño de búfer que quedara en memoria para cada consola.</string>
+  <string name="pref_ignitionid_title">Ignition ID</string>
+  <string name="pref_ignitionid_summary">Ignition ID.</string>
   <string name="pref_backupkeys_title">Copia de seguridad de claves públicas</string>
   <string name="pref_backupkeys_summary">Mantener copias de seguridad de las claves privadas usando el mecanismo de Android</string>
   <string name="pref_ui_category">Interfaz de usuario</string>
@@ -126,6 +128,11 @@
   <string name="pref_bell_category">Timbre del terminal</string>
   <string name="pref_bell_title">Timbre audible</string>
   <string name="pref_bell_volume_title">Volúmen del timbre</string>
+  <string name="pref_import_export_title">Importar/Exportar</string>
+  <string name="pref_import_export_summary">"Importar y/o exportar los servidores"</string>
+  <string name="import_export_button_import">"Importar"</string>
+  <string name="import_export_button_export">"Exportar"</string>
+  <string name="import_export_button_clear">"Limpiar"</string>
   <string name="pref_bell_vibrate_title">Vibrar con el timbre</string>
   <string name="pref_bell_notification_title">Notificaciones de fondo</string>
   <string name="pref_bell_notification_summary">Activar notificacion cuando algun terminal corriendo en el fondo active un timbre</string>
@@ -135,6 +142,8 @@
   <string name="list_pubkeyids_none">No usar teclas</string>
   <string name="list_pubkeyids_any">Utilizar cualquier clave desbloqueada</string>
   <string name="hostpref_nickname_title">Nombre</string>
+  <string name="hostpref_appname_title">Nombre de la App</string>
+  <string name="hostpref_enviroment_title">Ambiente</string>
   <string name="hostpref_color_title">Categoria de colores</string>
   <string name="hostpref_fontsize_title">Tamaño de la fuente (pt)</string>
   <string name="hostpref_pubkeyid_title">Usar clave de autenticación pública</string>
